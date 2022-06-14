@@ -62,9 +62,9 @@ main{
 .busca input{
     background-image: url('../lupa.png');
     background-repeat: no-repeat;
-    height: 36px;
+    height: 20px;
     padding: 7px;
-    width: 190px;
+    width: 180px;
     margin-top: 15px;
     background-position: 96%;
     border: 1px solid #d6d6d6;
@@ -75,13 +75,13 @@ main{
     position: relative;
 }
 .carrossel{
-    width: 1620px;
-    height: 620px;
+    width: 1902px;
+    height: 670px;
     overflow: hidden;
 }
 .carrossel .fotos{
     width: 500%;
-    animation: animacao 20s infinite;
+    animation: animacao 150s infinite;
 }
 
 .carrossel .fotos img{
