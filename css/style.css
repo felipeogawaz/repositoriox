@@ -81,11 +81,11 @@ main{
 }
 .carrossel .fotos{
     width: 500%;
-    animation: animacao 150s infinite;
+    animation: animacao 35s infinite;
 }
 
 .carrossel .fotos img{
-    width: 19.9%;
+    width: 20%;
 }
 
 @keyframes animacao {
