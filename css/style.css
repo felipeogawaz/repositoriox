@@ -41,8 +41,6 @@ main{
 .menu ul li:hover{
     border-bottom: 3px solid #00bac6;
 }
-
-
 .menu ul li a:hover{
      color:#00bac6;
 }
@@ -51,7 +49,6 @@ main{
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
-
 }
 .menu {
     width: 70%;
@@ -77,54 +74,28 @@ main{
     float: left;
     position: relative;
 }
-button.slick-prev {
-    font-size: 0%;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    background-image: url('../img/seta1.png');
-    top: 35%;
-    left: 14%;
-}
-button.slick-next {
-    font-size: 0%;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    background-image: url('../img/seta2.png');
-    top: 35%;
-    right: 14%;
-}
-.slick-list {
-    width: 100%!important;
-}
-.slick-initialized {
+.carrossel{
+    width: 1620px;
+    height: 620px;
     overflow: hidden;
 }
-.slick-dots li button {
-   font-size: 0px;
-   border: 4px solid #ffffff;
-   width: 25px;
-   height: 25px;
-   background-color: transparent;
-   border-radius: 50%;
+.carrossel .fotos{
+    width: 500%;
+    animation: animacao 20s infinite;
 }
 
-.slick-dots {
-    margin: 0 auto;
-    width: 50%;
-    position: absolute;
-    left: 20%;
-    top: 95%;
-    background-color: #00bac6;
+.carrossel .fotos img{
+    width: 19.9%;
 }
 
-.slick-dots li {
-    display: inline-block;
+@keyframes animacao {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+    100%{margin-left: -400%;}
 }
