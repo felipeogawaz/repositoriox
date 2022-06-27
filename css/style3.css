@@ -52,3 +52,55 @@ main {
     float: left;
     position: relative;
 }
+.p1 {
+    width: 960px;
+    height: 480px;
+    position: relative;
+    left: 550px; 
+}
+.t11 {
+    color: #2a2a2a;;
+    text-decoration: none;
+    width: 960px;
+    height: 480;
+    position: relative;
+    left: 250px; 
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.t1 {
+    color:#8b8b8b;
+    text-decoration: none;
+    font-size: 15.9px;
+    text-transform: uppercase;
+    width: 850px;
+    height: 480;
+    position: relative;
+    left: 250px;
+}
+.img1k {
+    width: 960px;
+    height: 480px;
+    position: relative;
+    left: 550px;
+}
+.origem {
+    color: #2a2a2a;;
+    text-decoration: none;
+    width: 960px;
+    height: 480;
+    position: relative;
+    left: 250px; 
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.tt1k {
+    color:#8b8b8b;
+    text-decoration: none;
+    font-size: 15.9px;
+    text-transform: uppercase;
+    width: 960px;
+    height: 480;
+    position: relative;
+    left: 250px;
+}
